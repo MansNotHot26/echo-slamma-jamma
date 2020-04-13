@@ -1,0 +1,14 @@
+.uploadContainer {
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+  .uploadContainer {
+    width: 33%;
+  }
+}

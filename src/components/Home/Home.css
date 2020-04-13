@@ -1,0 +1,52 @@
+.homeContainer {
+  margin-top: 40px;
+}
+.parentContainer {
+  margin: auto;
+  width: 50%;
+  border: 1px solid black;
+}
+@media only screen and (min-width: 1150px) {
+  .parentContainer {
+    width: 33%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .parentContainer {
+    width: 75%;
+  }
+}
+.progressContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uploadContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.alert {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.imageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.progressLabel {
+  font-weight: bold;
+  padding-top: 6px;
+  padding-right: 5px;
+}
+button {
+  background-color: black;
+  color: red;
+}
